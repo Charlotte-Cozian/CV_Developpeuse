@@ -1,0 +1,133 @@
+*{
+    font-size: 20px;
+    color: rgb(66, 81, 84);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ol {
+    list-style-type: none;
+    }
+
+header{
+    margin:auto;
+    max-width: 1200px;
+    background-color: rgba(238, 215, 183, 0.9);
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    border: 3px white solid;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 42px;
+    text-align: center;
+}
+
+h2{
+    font-size: 34px;
+    text-align: center;
+}
+
+
+
+.global{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+section{
+    border: 1px rgb(217, 217, 217) solid;
+    border-radius: 10px;
+    padding-right: 14px;
+}
+
+h3{
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.en_cours{
+    font-size: 20px;
+    font-style: italic;
+}
+
+span{
+    font-size: 20px;
+}
+
+.experience_pro li{
+    font-size: 17px;
+}
+.saut_de_ligne{
+    color: white;
+    font-size: 6px;
+}
+
+
+
+aside{
+    background-color: rgba(217, 217, 217, 0.8);
+    border: 2px white solid;
+    border-radius: 10px;
+    padding-right: 14px;
+    padding-top: 8px;
+}
+
+img{
+    border: none;
+    -moz-border-radius : 100px;
+    -webkit-border-radius : 100px;
+    border-radius : 100px;
+  }
+
+aside ul{
+    list-style-type: none;
+}
+
+.photo{
+    text-align: center;
+}
+
+p{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+@media all and (max-width: 500px){
+    *{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 34px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    .en_cours{
+        font-size: 14px;
+    }
+    span{
+        font-size: 14px;
+    }
+    .experience_pro li{
+        font-size: 11px;
+    }
+    p{
+        font-size: 18px;
+    }
+    img {
+        width: 40%;
+        height: 40%;
+    }
+}
