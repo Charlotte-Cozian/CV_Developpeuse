@@ -10,21 +10,26 @@ ol {
 
 header{
     margin:auto;
-    max-width: 1200px;
+    max-width: 980px;
+    max-height: 160px;
     background-color: rgba(238, 215, 183, 0.9);
     padding-top: 0.5px;
     padding-bottom: 0.5px;
     border: 3px white solid;
-    border-radius: 10px;
 }
 
 h1{
+    font-family: 'Times New Roman' ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
     font-size: 42px;
+    font-weight: normal;
     text-align: center;
+    max-height: 30px;
 }
 
 h2{
+    font-family: 'Times New Roman' ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
     font-size: 34px;
+    font-weight: normal;
     text-align: center;
 }
 
